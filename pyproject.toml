@@ -7,7 +7,7 @@ name = "geowave-seismic-lab"
 version = "1.0.0"
 description = "Seismic processing, velocity analysis and subsurface interpretation platform"
 requires-python = ">=3.11"
-dependencies = ["numpy>=1.26", "scipy>=1.11", "fastapi>=0.110", "pydantic>=2.6", "uvicorn>=0.29"]
+dependencies = ["numpy>=1.26", "scipy>=1.11", "PyWavelets>=1.5", "fastapi>=0.110", "pydantic>=2.6", "uvicorn>=0.29"]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
